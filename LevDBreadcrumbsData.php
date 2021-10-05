@@ -27,14 +27,14 @@ class LevDBreadcrumbsData
             'show_archive' => 1, // show post type archive link. For posts it will be page_for_posts page
             'show_category' => 1, // show category link
             'labels' => [
-                'home' => __('Home', 'yt-empty'),
+                'home' => __('Home'),
                 'category' => '%s',
-                'post_tag' => __('Tag: "%s"', 'yt-empty'),
-                'author' => __('Author: "%s"', 'yt-empty'),
-                'search' => __('Search results for: "%s"', 'yt-empty'),
-                '404' => __('Page 404', 'yt-empty'),
-                'page' => __('Page %s', 'yt-empty'),
-                'cpage' => __('Comments Page %s', 'yt-empty')
+                'post_tag' => __('Tag: "%s"'),
+                'author' => __('Author: "%s"'),
+                'search' => __('Search results for: "%s"'),
+                '404' => __('Page 404'),
+                'page' => __('Page %s'),
+                'cpage' => __('Comments Page %s')
             ],
             // terms to show in breadcrumbs for each post type
             'post_terms' => [
